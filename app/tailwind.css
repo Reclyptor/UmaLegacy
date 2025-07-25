@@ -4,9 +4,34 @@
 
 html,
 body {
-  @apply bg-white dark:bg-gray-950;
+  @apply bg-[#12101C] dark:bg-[#12101C];
 
   @media (prefers-color-scheme: dark) {
     color-scheme: dark;
+  }
+}
+
+@layer base {
+  /* Custom scrollbar styles */
+  ::-webkit-scrollbar {
+    width: 8px;
+    height: 8px;
+  }
+
+  ::-webkit-scrollbar-thumb {
+    background-color: rgba(182,146,255, 0.2);
+    border-radius: 4px;
+  }
+
+  ::-webkit-scrollbar-thumb:hover {
+    background-color: rgba(182,146,255, 0.4);
+  }
+
+  ::-webkit-scrollbar-track {
+    background: transparent;
+  }
+
+  ::-webkit-scrollbar-corner {
+    background: transparent;
   }
 }

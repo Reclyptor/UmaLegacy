@@ -1,0 +1,1022 @@
+[
+  {
+    "key": "special_dreamer",
+    "icon": "https://umamusu.wiki/w/thumb.php?f=Game_Playable_Icon_100101.png&width=48",
+    "name": "Special Dreamer",
+    "character": "Special Week",
+    "rarity": 3,
+    "stats": {
+      "speed": 0,
+      "stamina": 20,
+      "power": 0,
+      "guts": 0,
+      "wit": 10
+    },
+    "track": {
+      "turf": "A",
+      "dirt": "G"
+    },
+    "distance": {
+      "sprint": "F",
+      "mile": "C",
+      "medium": "A",
+      "long": "A"
+    },
+    "position": {
+      "front": "G",
+      "pace": "A",
+      "late": "A",
+      "end": "C"
+    },
+    "colors": {
+      "primary": "#851065",
+      "secondary": "#47003A"
+    }
+  },
+  {
+    "key": "innocent_silence",
+    "icon": "https://umamusu.wiki/w/thumb.php?f=Game_Playable_Icon_100201.png&width=48",
+    "name": "Innocent Silence",
+    "character": "Silence Suzuka",
+    "rarity": 3,
+    "stats": {
+      "speed": 20,
+      "stamina": 0,
+      "power": 0,
+      "guts": 10,
+      "wit": 0
+    },
+    "track": {
+      "turf": "A",
+      "dirt": "G"
+    },
+    "distance": {
+      "sprint": "D",
+      "mile": "A",
+      "medium": "A",
+      "long": "E"
+    },
+    "position": {
+      "front": "A",
+      "pace": "C",
+      "late": "E",
+      "end": "G"
+    },
+    "colors": {
+      "primary": "#21975A",
+      "secondary": "#795800"
+    }
+  },
+  {
+    "key": "peak_joy",
+    "icon": "https://umamusu.wiki/w/thumb.php?f=Game_Playable_Icon_100301.png&width=48",
+    "name": "Peak Joy",
+    "character": "Tokai Teio",
+    "rarity": 3,
+    "stats": {
+      "speed": 20,
+      "stamina": 10,
+      "power": 0,
+      "guts": 0,
+      "wit": 0
+    },
+    "track": {
+      "turf": "A",
+      "dirt": "G"
+    },
+    "distance": {
+      "sprint": "F",
+      "mile": "E",
+      "medium": "A",
+      "long": "B"
+    },
+    "position": {
+      "front": "D",
+      "pace": "A",
+      "late": "C",
+      "end": "E"
+    },
+    "colors": {
+      "primary": "#245AA4",
+      "secondary": "#70003D"
+    }
+  },
+  {
+    "key": "beyond_the_horizon",
+    "icon": "https://umamusu.wiki/w/thumb.php?f=Game_Playable_Icon_100302.png&width=48",
+    "name": "Beyond the Horizon",
+    "character": "Tokai Teio",
+    "rarity": 3,
+    "stats": {
+      "speed": 10,
+      "stamina": 10,
+      "power": 0,
+      "guts": 10,
+      "wit": 0
+    },
+    "track": {
+      "turf": "A",
+      "dirt": "G"
+    },
+    "distance": {
+      "sprint": "F",
+      "mile": "E",
+      "medium": "A",
+      "long": "B"
+    },
+    "position": {
+      "front": "D",
+      "pace": "A",
+      "late": "C",
+      "end": "E"
+    },
+    "colors": {
+      "primary": "#8D0F1C",
+      "secondary": "#8F564D"
+    }
+  },
+  {
+    "key": "formula_r",
+    "icon": "https://umamusu.wiki/w/thumb.php?f=Game_Playable_Icon_100401.png&width=48",
+    "name": "Formula R",
+    "character": "Maruzensky",
+    "rarity": 3,
+    "stats": {
+      "speed": 10,
+      "stamina": 0,
+      "power": 0,
+      "guts": 0,
+      "wit": 20
+    },
+    "track": {
+      "turf": "A",
+      "dirt": "D"
+    },
+    "distance": {
+      "sprint": "B",
+      "mile": "A",
+      "medium": "B",
+      "long": "C"
+    },
+    "position": {
+      "front": "A",
+      "pace": "E",
+      "late": "G",
+      "end": "G"
+    },
+    "colors": {
+      "primary": "#9A1712",
+      "secondary": "#997B00"
+    }
+  },
+  {
+    "key": "starlight_beat",
+    "icon": "https://umamusu.wiki/w/thumb.php?f=Game_Playable_Icon_100601.png&width=48",
+    "name": "Starlight Beat",
+    "character": "Oguri Cap",
+    "rarity": 3,
+    "stats": {
+      "speed": 20,
+      "stamina": 0,
+      "power": 10,
+      "guts": 0,
+      "wit": 0
+    },
+    "track": {
+      "turf": "A",
+      "dirt": "B"
+    },
+    "distance": {
+      "sprint": "E",
+      "mile": "A",
+      "medium": "A",
+      "long": "B"
+    },
+    "position": {
+      "front": "F",
+      "pace": "A",
+      "late": "A",
+      "end": "D"
+    },
+    "colors": {
+      "primary": "#2458A0",
+      "secondary": "#242729"
+    }
+  },
+  {
+    "key": "red_strife",
+    "icon": "https://umamusu.wiki/w/thumb.php?f=Game_Playable_Icon_100701.png&width=48",
+    "name": "Red Strife",
+    "character": "Gold Ship",
+    "rarity": 2,
+    "stats": {
+      "speed": 0,
+      "stamina": 20,
+      "power": 10,
+      "guts": 0,
+      "wit": 0
+    },
+    "track": {
+      "turf": "A",
+      "dirt": "G"
+    },
+    "distance": {
+      "sprint": "G",
+      "mile": "C",
+      "medium": "A",
+      "long": "A"
+    },
+    "position": {
+      "front": "G",
+      "pace": "B",
+      "late": "B",
+      "end": "A"
+    },
+    "colors": {
+      "primary": "#A01E34",
+      "secondary": "#7D740E"
+    }
+  },
+  {
+    "key": "wild_top_gear",
+    "icon": "https://umamusu.wiki/w/thumb.php?f=Game_Playable_Icon_100801.png&width=48",
+    "name": "Wild Top Gear",
+    "character": "Vodka",
+    "rarity": 2,
+    "stats": {
+      "speed": 10,
+      "stamina": 0,
+      "power": 20,
+      "guts": 0,
+      "wit": 0
+    },
+    "track": {
+      "turf": "A",
+      "dirt": "G"
+    },
+    "distance": {
+      "sprint": "F",
+      "mile": "A",
+      "medium": "A",
+      "long": "F"
+    },
+    "position": {
+      "front": "C",
+      "pace": "B",
+      "late": "A",
+      "end": "F"
+    },
+    "colors": {
+      "primary": "#AA9B00",
+      "secondary": "#219A9F"
+    }
+  },
+  {
+    "key": "peak_blue",
+    "icon": "https://umamusu.wiki/w/thumb.php?f=Game_Playable_Icon_100901.png&width=48",
+    "name": "Peak Blue",
+    "character": "Daiwa Scarlet",
+    "rarity": 2,
+    "stats": {
+      "speed": 10,
+      "stamina": 0,
+      "power": 0,
+      "guts": 20,
+      "wit": 0
+    },
+    "track": {
+      "turf": "A",
+      "dirt": "G"
+    },
+    "distance": {
+      "sprint": "F",
+      "mile": "A",
+      "medium": "A",
+      "long": "B"
+    },
+    "position": {
+      "front": "A",
+      "pace": "A",
+      "late": "E",
+      "end": "G"
+    },
+    "colors": {
+      "primary": "#213293",
+      "secondary": "#A71447"
+    }
+  },
+  {
+    "key": "wild_frontier",
+    "icon": "https://umamusu.wiki/w/thumb.php?f=Game_Playable_Icon_101001.png&width=48",
+    "name": "Wild Frontier",
+    "character": "Taiki Shuttle",
+    "rarity": 3,
+    "stats": {
+      "speed": 20,
+      "stamina": 0,
+      "power": 0,
+      "guts": 0,
+      "wit": 10
+    },
+    "track": {
+      "turf": "A",
+      "dirt": "B"
+    },
+    "distance": {
+      "sprint": "A",
+      "mile": "A",
+      "medium": "E",
+      "long": "G"
+    },
+    "position": {
+      "front": "C",
+      "pace": "A",
+      "late": "E",
+      "end": "G"
+    },
+    "colors": {
+      "primary": "#5C9A28",
+      "secondary": "#A45C00"
+    }
+  },
+  {
+    "key": "stone_piercing_blue",
+    "icon": "https://umamusu.wiki/w/thumb.php?f=Game_Playable_Icon_101101.png&width=48",
+    "name": "Stone-Piercing Blue",
+    "character": "Grass Wonder",
+    "rarity": 2,
+    "stats": {
+      "speed": 20,
+      "stamina": 0,
+      "power": 10,
+      "guts": 0,
+      "wit": 0
+    },
+    "track": {
+      "turf": "A",
+      "dirt": "G"
+    },
+    "distance": {
+      "sprint": "G",
+      "mile": "A",
+      "medium": "B",
+      "long": "A"
+    },
+    "position": {
+      "front": "F",
+      "pace": "A",
+      "late": "A",
+      "end": "F"
+    },
+    "colors": {
+      "primary": "#2E2A8A",
+      "secondary": "#A02017"
+    }
+  },
+  {
+    "key": "frontline_elegance",
+    "icon": "https://umamusu.wiki/w/thumb.php?f=Game_Playable_Icon_101301.png&width=48",
+    "name": "Frontline Elegance",
+    "character": "Mejiro McQueen",
+    "rarity": 3,
+    "stats": {
+      "speed": 0,
+      "stamina": 20,
+      "power": 0,
+      "guts": 0,
+      "wit": 10
+    },
+    "track": {
+      "turf": "A",
+      "dirt": "E"
+    },
+    "distance": {
+      "sprint": "G",
+      "mile": "F",
+      "medium": "A",
+      "long": "A"
+    },
+    "position": {
+      "front": "B",
+      "pace": "A",
+      "late": "D",
+      "end": "F"
+    },
+    "colors": {
+      "primary": "#009198",
+      "secondary": "#3B1E45"
+    }
+  },
+  {
+    "key": "end_of_the_skies",
+    "icon": "https://umamusu.wiki/w/thumb.php?f=Game_Playable_Icon_101302.png&width=48",
+    "name": "End of the Skies",
+    "character": "Mejiro McQueen",
+    "rarity": 3,
+    "stats": {
+      "speed": 0,
+      "stamina": 10,
+      "power": 10,
+      "guts": 0,
+      "wit": 10
+    },
+    "track": {
+      "turf": "A",
+      "dirt": "E"
+    },
+    "distance": {
+      "sprint": "G",
+      "mile": "F",
+      "medium": "A",
+      "long": "A"
+    },
+    "position": {
+      "front": "B",
+      "pace": "A",
+      "late": "D",
+      "end": "F"
+    },
+    "colors": {
+      "primary": "#009198",
+      "secondary": "#3B1E45"
+    }
+  },
+  {
+    "key": "el_numero_1",
+    "icon": "https://umamusu.wiki/w/thumb.php?f=Game_Playable_Icon_101401.png&width=48",
+    "name": "El☆Número 1",
+    "character": "El Condor Pasa",
+    "rarity": 2,
+    "stats": {
+      "speed": 20,
+      "stamina": 0,
+      "power": 0,
+      "guts": 0,
+      "wit": 10
+    },
+    "track": {
+      "turf": "A",
+      "dirt": "B"
+    },
+    "distance": {
+      "sprint": "F",
+      "mile": "A",
+      "medium": "A",
+      "long": "B"
+    },
+    "position": {
+      "front": "E",
+      "pace": "A",
+      "late": "A",
+      "end": "C"
+    },
+    "colors": {
+      "primary": "#A7331C",
+      "secondary": "#84780A"
+    }
+  },
+  {
+    "key": "o_sole_suo",
+    "icon": "https://umamusu.wiki/w/thumb.php?f=Game_Playable_Icon_101501.png&width=48",
+    "name": "O Sole Suo!",
+    "character": "T.M. Opera O",
+    "rarity": 3,
+    "stats": {
+      "speed": 0,
+      "stamina": 20,
+      "power": 0,
+      "guts": 0,
+      "wit": 10
+    },
+    "track": {
+      "turf": "A",
+      "dirt": "E"
+    },
+    "distance": {
+      "sprint": "G",
+      "mile": "E",
+      "medium": "A",
+      "long": "A"
+    },
+    "position": {
+      "front": "C",
+      "pace": "A",
+      "late": "A",
+      "end": "G"
+    },
+    "colors": {
+      "primary": "#840C59",
+      "secondary": "#8F8102"
+    }
+  },
+  {
+    "key": "emperors_path",
+    "icon": "https://umamusu.wiki/w/thumb.php?f=Game_Playable_Icon_101701.png&width=48",
+    "name": "Emperor's Path",
+    "character": "Symboli Rudolf",
+    "rarity": 3,
+    "stats": {
+      "speed": 0,
+      "stamina": 20,
+      "power": 0,
+      "guts": 10,
+      "wit": 0
+    },
+    "track": {
+      "turf": "A",
+      "dirt": "G"
+    },
+    "distance": {
+      "sprint": "E",
+      "mile": "C",
+      "medium": "A",
+      "long": "A"
+    },
+    "position": {
+      "front": "B",
+      "pace": "A",
+      "late": "A",
+      "end": "C"
+    },
+    "colors": {
+      "primary": "#165F4F",
+      "secondary": "#9E273C"
+    }
+  },
+  {
+    "key": "empress_road",
+    "icon": "https://umamusu.wiki/w/thumb.php?f=Game_Playable_Icon_101801.png&width=48",
+    "name": "Empress Road",
+    "character": "Air Groove",
+    "rarity": 2,
+    "stats": {
+      "speed": 10,
+      "stamina": 0,
+      "power": 20,
+      "guts": 0,
+      "wit": 0
+    },
+    "track": {
+      "turf": "A",
+      "dirt": "G"
+    },
+    "distance": {
+      "sprint": "C",
+      "mile": "B",
+      "medium": "A",
+      "long": "E"
+    },
+    "position": {
+      "front": "D",
+      "pace": "A",
+      "late": "A",
+      "end": "G"
+    },
+    "colors": {
+      "primary": "#0075A2",
+      "secondary": "#736103"
+    }
+  },
+  {
+    "key": "pf_winning_equation",
+    "icon": "https://umamusu.wiki/w/thumb.php?f=Game_Playable_Icon_102301.png&width=48",
+    "name": "pf. Winning Equation...",
+    "character": "Biwa Hayahide",
+    "rarity": 3,
+    "stats": {
+      "speed": 0,
+      "stamina": 0,
+      "power": 0,
+      "guts": 10,
+      "wit": 20
+    },
+    "track": {
+      "turf": "A",
+      "dirt": "F"
+    },
+    "distance": {
+      "sprint": "F",
+      "mile": "C",
+      "medium": "A",
+      "long": "A"
+    },
+    "position": {
+      "front": "E",
+      "pace": "A",
+      "late": "B",
+      "end": "E"
+    },
+    "colors": {
+      "primary": "#8D3167",
+      "secondary": "#7E1651"
+    }
+  },
+  {
+    "key": "scramble_zone",
+    "icon": "https://umamusu.wiki/w/thumb.php?f=Game_Playable_Icon_102401.png&width=48",
+    "name": "Scramble☆Zone",
+    "character": "Mayano Top Gun",
+    "rarity": 2,
+    "stats": {
+      "speed": 0,
+      "stamina": 20,
+      "power": 0,
+      "guts": 10,
+      "wit": 0
+    },
+    "track": {
+      "turf": "A",
+      "dirt": "E"
+    },
+    "distance": {
+      "sprint": "D",
+      "mile": "D",
+      "medium": "A",
+      "long": "A"
+    },
+    "position": {
+      "front": "A",
+      "pace": "A",
+      "late": "B",
+      "end": "B"
+    },
+    "colors": {
+      "primary": "#A84308",
+      "secondary": "#7A5600"
+    }
+  },
+  {
+    "key": "mb_19890425",
+    "icon": "https://umamusu.wiki/w/thumb.php?f=Game_Playable_Icon_102601.png&width=48",
+    "name": "MB-19890425",
+    "character": "Mihono Bourbon",
+    "rarity": 3,
+    "stats": {
+      "speed": 0,
+      "stamina": 20,
+      "power": 10,
+      "guts": 0,
+      "wit": 0
+    },
+    "track": {
+      "turf": "A",
+      "dirt": "G"
+    },
+    "distance": {
+      "sprint": "C",
+      "mile": "B",
+      "medium": "A",
+      "long": "B"
+    },
+    "position": {
+      "front": "A",
+      "pace": "E",
+      "late": "G",
+      "end": "G"
+    },
+    "colors": {
+      "primary": "#8D0F49",
+      "secondary": "#79770A"
+    }
+  },
+  {
+    "key": "down_the_line",
+    "icon": "https://umamusu.wiki/w/thumb.php?f=Game_Playable_Icon_102701.png&width=48",
+    "name": "Down the Line",
+    "character": "Mejiro Ryan",
+    "rarity": 1,
+    "stats": {
+      "speed": 0,
+      "stamina": 0,
+      "power": 20,
+      "guts": 0,
+      "wit": 10
+    },
+    "track": {
+      "turf": "A",
+      "dirt": "G"
+    },
+    "distance": {
+      "sprint": "E",
+      "mile": "C",
+      "medium": "A",
+      "long": "B"
+    },
+    "position": {
+      "front": "F",
+      "pace": "A",
+      "late": "A",
+      "end": "F"
+    },
+    "colors": {
+      "primary": "#10958B",
+      "secondary": "#633E2E"
+    }
+  },
+  {
+    "key": "rosy_dreams",
+    "icon": "https://umamusu.wiki/w/thumb.php?f=Game_Playable_Icon_103001.png&width=48",
+    "name": "Rosy Dreams",
+    "character": "Rice Shower",
+    "rarity": 3,
+    "stats": {
+      "speed": 0,
+      "stamina": 10,
+      "power": 0,
+      "guts": 20,
+      "wit": 0
+    },
+    "track": {
+      "turf": "A",
+      "dirt": "G"
+    },
+    "distance": {
+      "sprint": "E",
+      "mile": "C",
+      "medium": "A",
+      "long": "A"
+    },
+    "position": {
+      "front": "B",
+      "pace": "A",
+      "late": "C",
+      "end": "G"
+    },
+    "colors": {
+      "primary": "#2D3B6B",
+      "secondary": "#9C2B51"
+    }
+  },
+  {
+    "key": "tach_nology",
+    "icon": "https://umamusu.wiki/w/thumb.php?f=Game_Playable_Icon_103201.png&width=48",
+    "name": "tach-nology",
+    "character": "Agnes Tachyon",
+    "rarity": 1,
+    "stats": {
+      "speed": 20,
+      "stamina": 0,
+      "power": 0,
+      "guts": 10,
+      "wit": 0
+    },
+    "track": {
+      "turf": "A",
+      "dirt": "G"
+    },
+    "distance": {
+      "sprint": "G",
+      "mile": "D",
+      "medium": "A",
+      "long": "B"
+    },
+    "position": {
+      "front": "E",
+      "pace": "A",
+      "late": "B",
+      "end": "F"
+    },
+    "colors": {
+      "primary": "#2A8E92",
+      "secondary": "#62650F"
+    }
+  },
+  {
+    "key": "get_to_winning",
+    "icon": "https://umamusu.wiki/w/thumb.php?f=Game_Playable_Icon_103501.png&width=48",
+    "name": "Get to Winning!",
+    "character": "Winning Ticket",
+    "rarity": 1,
+    "stats": {
+      "speed": 0,
+      "stamina": 10,
+      "power": 20,
+      "guts": 0,
+      "wit": 0
+    },
+    "track": {
+      "turf": "A",
+      "dirt": "G"
+    },
+    "distance": {
+      "sprint": "G",
+      "mile": "F",
+      "medium": "A",
+      "long": "B"
+    },
+    "position": {
+      "front": "G",
+      "pace": "B",
+      "late": "A",
+      "end": "G"
+    },
+    "colors": {
+      "primary": "#A01C35",
+      "secondary": "#7F780B"
+    }
+  },
+  {
+    "key": "blossom_in_learning",
+    "icon": "https://umamusu.wiki/w/thumb.php?f=Game_Playable_Icon_104101.png&width=48",
+    "name": "Blossom in Learning",
+    "character": "Sakura Bakushin O",
+    "rarity": 1,
+    "stats": {
+      "speed": 20,
+      "stamina": 0,
+      "power": 0,
+      "guts": 0,
+      "wit": 10
+    },
+    "track": {
+      "turf": "A",
+      "dirt": "G"
+    },
+    "distance": {
+      "sprint": "A",
+      "mile": "B",
+      "medium": "G",
+      "long": "G"
+    },
+    "position": {
+      "front": "A",
+      "pace": "A",
+      "late": "F",
+      "end": "G"
+    },
+    "colors": {
+      "primary": "#841047",
+      "secondary": "#411418"
+    }
+  },
+  {
+    "key": "murmuring_stream",
+    "icon": "https://umamusu.wiki/w/thumb.php?f=Game_Playable_Icon_104501.png&width=48",
+    "name": "Murmuring Stream",
+    "character": "Super Creek",
+    "rarity": 2,
+    "stats": {
+      "speed": 0,
+      "stamina": 10,
+      "power": 0,
+      "guts": 0,
+      "wit": 20
+    },
+    "track": {
+      "turf": "A",
+      "dirt": "G"
+    },
+    "distance": {
+      "sprint": "G",
+      "mile": "G",
+      "medium": "A",
+      "long": "A"
+    },
+    "position": {
+      "front": "D",
+      "pace": "A",
+      "late": "B",
+      "end": "G"
+    },
+    "colors": {
+      "primary": "#1F538F",
+      "secondary": "#373C3E"
+    }
+  },
+  {
+    "key": "bestest_prize",
+    "icon": "https://umamusu.wiki/w/thumb.php?f=Game_Playable_Icon_105201.png&width=48",
+    "name": "Bestest Prize ♪",
+    "character": "Haru Urara",
+    "rarity": 1,
+    "stats": {
+      "speed": 0,
+      "stamina": 0,
+      "power": 10,
+      "guts": 20,
+      "wit": 0
+    },
+    "track": {
+      "turf": "G",
+      "dirt": "A"
+    },
+    "distance": {
+      "sprint": "A",
+      "mile": "B",
+      "medium": "G",
+      "long": "G"
+    },
+    "position": {
+      "front": "G",
+      "pace": "G",
+      "late": "A",
+      "end": "B"
+    },
+    "colors": {
+      "primary": "#850525",
+      "secondary": "#746B0C"
+    }
+  },
+  {
+    "key": "rising_fortune",
+    "icon": "https://umamusu.wiki/w/thumb.php?f=Game_Playable_Icon_105601.png&width=48",
+    "name": "Rising☆Fortune",
+    "character": "Matikanefukukitaru",
+    "rarity": 1,
+    "stats": {
+      "speed": 0,
+      "stamina": 20,
+      "power": 10,
+      "guts": 0,
+      "wit": 0
+    },
+    "track": {
+      "turf": "A",
+      "dirt": "F"
+    },
+    "distance": {
+      "sprint": "F",
+      "mile": "C",
+      "medium": "A",
+      "long": "A"
+    },
+    "position": {
+      "front": "G",
+      "pace": "B",
+      "late": "A",
+      "end": "F"
+    },
+    "colors": {
+      "primary": "#1252A2",
+      "secondary": "#BD7B06"
+    }
+  },
+  {
+    "key": "poinsettia_ribbon",
+    "icon": "https://umamusu.wiki/w/thumb.php?f=Game_Playable_Icon_106001.png&width=48",
+    "name": "Poinsettia Ribbon",
+    "character": "Nice Nature",
+    "rarity": 1,
+    "stats": {
+      "speed": 0,
+      "stamina": 0,
+      "power": 20,
+      "guts": 0,
+      "wit": 10
+    },
+    "track": {
+      "turf": "A",
+      "dirt": "G"
+    },
+    "distance": {
+      "sprint": "G",
+      "mile": "C",
+      "medium": "A",
+      "long": "A"
+    },
+    "position": {
+      "front": "F",
+      "pace": "B",
+      "late": "A",
+      "end": "D"
+    },
+    "colors": {
+      "primary": "#208747",
+      "secondary": "#931F1A"
+    }
+  },
+  {
+    "key": "king_of_emeralds",
+    "icon": "https://umamusu.wiki/w/thumb.php?f=Game_Playable_Icon_106101.png&width=48",
+    "name": "King of Emeralds",
+    "character": "King Halo",
+    "rarity": 1,
+    "stats": {
+      "speed": 0,
+      "stamina": 0,
+      "power": 20,
+      "guts": 10,
+      "wit": 0
+    },
+    "track": {
+      "turf": "A",
+      "dirt": "G"
+    },
+    "distance": {
+      "sprint": "A",
+      "mile": "B",
+      "medium": "B",
+      "long": "C"
+    },
+    "position": {
+      "front": "G",
+      "pace": "B",
+      "late": "A",
+      "end": "D"
+    },
+    "colors": {
+      "primary": "#0B7641",
+      "secondary": "#164684"
+    }
+  }
+]
