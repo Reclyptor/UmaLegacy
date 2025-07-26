@@ -1,8 +1,10 @@
 import { LoaderFunction, LoaderFunctionArgs } from "@remix-run/node";
 import { Nullable } from "~/type/common";
 import { Trainee } from "~/type/trainee";
-import { useLoaderData } from "@remix-run/react";
+import { useLoaderData, useNavigate } from "@remix-run/react";
 import { getTraineeByKey } from "~/service/trainee.server";
+import { useEffect } from "react";
+import TraineeCard from "~/component/TraineeCard";
 
 type LoaderData = {
   trainee: Nullable<Trainee>;
@@ -15,11 +17,17 @@ export const loader: LoaderFunction = async ({ params }: LoaderFunctionArgs): Pr
 
 const Trainees = () => {
   const { trainee } = useLoaderData<LoaderData>();
-  return (
-    <div>
-      { JSON.stringify(trainee) }
-    </div>
-  )
+  const navigate = useNavigate();
+
+  useEffect(() => {
+    if (!trainee) {
+      navigate("/trainees", { replace: true });
+    }
+  }, [navigate, trainee]);
+
+  return !trainee ? null : (
+    <TraineeCard trainee={ trainee } />
+  );
 };
 
 export default Trainees;

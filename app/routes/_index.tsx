@@ -18,7 +18,7 @@ const Index = () => {
         <NavigationBar />
       </header>
       <main className="flex flex-col items-center w-full flex-grow overflow-y-auto">
-        <div className="flex flex-col items-center w-full flex-grow min-w-[640px] max-w-[1024px] bg-surface/95 backdrop-blur-3xl">
+        <div className="flex flex-col items-center w-full min-h-fit flex-grow min-w-[640px] max-w-[1250px] bg-surface/95 backdrop-blur-3xl overflow-x-auto">
           { location.pathname !== "/" && <Outlet /> }
         </div>
       </main>

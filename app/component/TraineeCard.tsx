@@ -1,14 +1,18 @@
 import { Trainee } from "~/type/trainee";
+import { HTMLAttributes } from "react";
+import { twMerge } from "tailwind-merge";
+import clsx from "clsx";
 
 export type TraineeCardProps = {
   trainee: Trainee;
-};
+} & HTMLAttributes<HTMLDivElement>;
 
 const TraineeCard = (props: TraineeCardProps) => {
+  const { trainee, ...rest } = props;
   return (
-    <div className="bg-surface backdrop-blur-3xl border border-accent rounded-lg">
-      <img alt={ props.trainee.character } src={ props.trainee.icon } />
-      { props.trainee.name }
+    <div { ...rest } className={ twMerge(clsx("bg-surface backdrop-blur-3xl", props.className)) }>
+      <img alt={ trainee.character } src={ trainee.icon } />
+      { trainee.name }
     </div>
   );
 };
