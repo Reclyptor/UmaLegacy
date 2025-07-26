@@ -16,7 +16,7 @@ const NavigationBar = () => {
         LINKS.map((link, idx) => (
           <React.Fragment key={ link.key }>
             { idx > 0 && <span className="text-xs text-label/50">|</span> }
-            <a href={ link.key }><div className={ clsx("text-label px-4", { "underline": location.pathname.endsWith(link.key) }) }>{ link.label }</div></a>
+            <a href={ `/${ link.key }` }><div className={ clsx("text-label px-4", { "underline": location.pathname.endsWith(link.key) }) }>{ link.label }</div></a>
           </React.Fragment>
         ))
       }

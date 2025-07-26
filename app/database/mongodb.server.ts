@@ -11,5 +11,5 @@ const _mongoClient = (): MongoClient => {
 };
 
 export const mongoDB = <T extends Document>(collection: string): Collection<T> => {
-  return _mongoClient().db().collection(collection);
+  return _mongoClient().db().collection<T>(collection);
 };

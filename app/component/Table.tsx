@@ -11,7 +11,7 @@ export type Column<T> = {
   header: ReactNode;
   headerProps?: PropsHeader;
   cell: ReactNode | ((_: Row<T>) => ReactNode);
-  cellProps?: PropsCell;
+  cellProps?: PropsCell | ((_: Row<T>) => PropsCell);
 };
 
 export type TableProps<T> = {
@@ -32,7 +32,7 @@ const Table = <T,>(props: TableProps<T>) => {
           <tr { ...(typeof rowProps === "function" ? rowProps(row) : rowProps) } key={ rkey }>
           {
             props.cols.map(({ cell, cellProps }, ckey) =>
-              <td { ...cellProps } key={ ckey }>{ typeof cell === 'function' ? cell(row) : cell }</td>
+              <td { ...(typeof cellProps === "function" ? cellProps(row) : cellProps) } key={ ckey }>{ typeof cell === 'function' ? cell(row) : cell }</td>
             )
           }
           </tr>

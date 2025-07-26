@@ -1,18 +1,22 @@
 import { SyntheticEvent, useState } from "react";
-import { Trainee } from "~/type/trainee";
 import { twMerge } from "tailwind-merge";
 import clsx from "clsx";
 
+const RANKS = ["A", "B", "C", "D", "E", "F", "G"] as const;
+export type Rank = typeof RANKS[number];
+
 export type TraineeIconProps = {
-  trainee: Trainee;
+  rank: Rank | string;
+  size?: number;
   className?: string;
 };
 
 const TraineeIcon = (props: TraineeIconProps) => {
   const [error, setError] = useState<SyntheticEvent<HTMLImageElement, Event>>();
-  return error ? null : (
+  const isValidRank = RANKS.includes(props.rank as Rank);
+  return error || !isValidRank ? null : (
     <div className={ twMerge(clsx("flex items-center justify-center w-fit h-fit", props.className)) }>
-      <img width={ 80 } loading="lazy" alt={ props.trainee.character } src={ `/resource/trainee/${ props.trainee.key }/${ props.trainee.key }_icon.png` } onError={ setError } className="aspect-auto" />
+      <img width={ props.size } loading="lazy" alt={ props.rank } src={ `/resource/rank/Rank_${ props.rank }.png` } onError={ setError } className="aspect-auto" />
     </div>
   );
 };

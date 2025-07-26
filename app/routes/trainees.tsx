@@ -16,8 +16,10 @@ export const loader: LoaderFunction = async (): Promise<LoaderData> => {
 const Trainees = () => {
   const { trainees } = useLoaderData<LoaderData>();
   return (
-    <TraineeTable trainees={ trainees } />
-  )
+    <div className="w-full overflow-x-auto">
+      <TraineeTable trainees={ trainees } className="w-full" />
+    </div>
+  );
 };
 
 export default Trainees;
